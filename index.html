@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <body style="background-color:rgb(14,16,21);">
+    <title>planetanova</title>
+    <!-- Ensure the path to lunaradio.min.js is correct -->
+    <script src="/js/lunaradio.min.js"></script>
+    <style>
+        /* Add any additional styling here */
+    </style>
+</head>
+<body>
+
+    <!-- The radio player container -->
+    <div id="mylunaplayer" style='width:100%; height: 96vh;
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+     border: none;'>
+<div style="overflow:hidden; height:0px;"><a href="https://audioplayer.luna-universe.com" title="html audio player plugin with playlist">HTML AUDIO PLAYER PLUGIN WITH PLAYLIST</a> powered by <a href="https://www.sodah.de" title="wordpress webdesign mainz">Sodah Webdesign Mainz</a></div>
+
+</div>			
+
+    <!-- Luna Radio Script -->
+    <script>
+      lunaRadio("mylunaplayer", {
+            token: "Yl5TYFdmU2BhaFMgZGE=",
+            userinterface: "big",
+            backgroundcolor: "#0e1015",
+            fontcolor: "#ffffff",
+            highlightcolor: "#fa225b",
+            fontname: "Kirang Haerang",
+            googlefont: "kirang+haerang:300",
+            fontratio: "0.5",
+            radioname: "the lost planet",
+            scroll: "true",
+            scrollradioname: "left",
+            scrolltitle: "right",
+            coverimage: "https://planetanova.ro/images/cover.gif",
+            onlycoverimage: "false",
+            coverstyle: "square",
+            usevisualizer: "true",
+            visualizertype: "4",
+            itunestoken: "",
+            metadatatechnic: "hls",
+            ownmetadataurl: "",
+            streamurl: "https://a7.asurahosting.com/hls/planetanova/live.m3u8",
+            streamtype: "hls",
+            icecastmountpoint: "",
+            radionomyid: "",
+            radionomyapikey: "",
+            radiojarid: "",
+            radiocoid: "",
+            shoutcastpath: "/live",
+            shoutcastid: "1",
+            streamsuffix: "",
+            metadatainterval: "20000",
+            volume: "80",
+            debug: "false",
+            uselocalstorage: "false",
+            usestreamcorsproxy: "false", 
+            corsproxy: "*",
+            autoplay: "false",
+            displayliveicon: "true",
+            displayvisualizericon: "true",
+            multicolorvisualizer: "false",
+            color1: "#e66c35",
+            color2: "#d04345",
+            color3: "#85a752",
+            color4: "#067dcc",
+            visualizeropacity: "0.9",
+            visualizerghost: "0.0"
+        });
+    </script>
+
+</body>
+</html>
